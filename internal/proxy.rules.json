@@ -1,0 +1,6 @@
+{
+  "rules": [
+    { "pathname": "/api", "dest": "http://localhost:9001" },
+    { "pathname": "/**", "dest": "http://localhost:9002" }
+  ]
+}
